@@ -2,9 +2,16 @@
   "name": "eth-deployer",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "start": "node deploy.js" },
+  "scripts": {
+    "start": "node deploy.js"
+  },
   "dependencies": {
     "ethers": "^6.13.0",
     "solc": "^0.8.30"
+  },
+  "overrides": {
+    "solc": {
+      "tmp": "0.2.7"
+    }
   }
 }
