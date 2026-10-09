@@ -21,7 +21,7 @@
 **1️⃣ Clone the project**
 
 ```bash
-git clone https://github.com/yoge7388095s/eth-trading-bot
+git clone https://github.com/yoge7388095s/eth-trading-bot.git
 cd <your-repo>
 ```
 
